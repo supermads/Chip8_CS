@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chip8", "Chip8\Chip8.csproj", "{A95574A4-347D-4354-A501-8F3F2F086D22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{F8BE0D49-E6BF-4E76-91DB-A98788A5617F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A95574A4-347D-4354-A501-8F3F2F086D22} = {A95574A4-347D-4354-A501-8F3F2F086D22}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chip8.Test", "Chip8.Test\Chip8.Test.csproj", "{D16196A0-996A-4648-B3BC-BC57307D1219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,14 @@ Global
 		{A95574A4-347D-4354-A501-8F3F2F086D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A95574A4-347D-4354-A501-8F3F2F086D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A95574A4-347D-4354-A501-8F3F2F086D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BE0D49-E6BF-4E76-91DB-A98788A5617F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BE0D49-E6BF-4E76-91DB-A98788A5617F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BE0D49-E6BF-4E76-91DB-A98788A5617F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BE0D49-E6BF-4E76-91DB-A98788A5617F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16196A0-996A-4648-B3BC-BC57307D1219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16196A0-996A-4648-B3BC-BC57307D1219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16196A0-996A-4648-B3BC-BC57307D1219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16196A0-996A-4648-B3BC-BC57307D1219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
