@@ -43,6 +43,7 @@
     <Compile Include="Memory\IMemory.cs" />
     <Compile Include="Memory\Memory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registers.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
